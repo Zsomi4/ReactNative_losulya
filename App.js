@@ -1,3 +1,11 @@
+// File: App.js
+// Author: Gubis Zsombor Dániel
+// Copyright: 2023, Gubis Zsombor Dániel
+// Group: Szoft_II_N
+// Date: 2023-04-17
+// Github: https://github.com/zsomi4/
+// Licenc: GNU GPL 
+
 import React, { useState } from 'react';
 import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
 
@@ -41,8 +49,26 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#8B4513',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 20,
+  },
+  label: {
+    fontSize: 20,
+    marginBottom: 10,
+  },
+  input: {
+    height: 40,
+    width: '100%',
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+  },
+  result: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 20,
   },
 });
