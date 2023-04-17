@@ -42,7 +42,14 @@ export default function App() {
       {horseWeight ? (
         <Text style={styles.result}>{`Ló Súlya: ${horseWeight} kg`}</Text>
       ) : null}
+
+        <Text>
+          Gubis Zsombor Dániel, SzoftII N, 2023-03-27
+        </Text>
+        
     </View>
+
+
   );
 }
 
